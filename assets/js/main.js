@@ -26,3 +26,7 @@ checkbox.addEventListener("change", () => {
 
   localStorage.setItem("darkMode", switchToTheme);
 });
+
+const autoSwitch = () => {
+  console.log("This is automode of dark/light theme switcher")
+}
